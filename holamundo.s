@@ -9,7 +9,7 @@ Esto es un comentario muktilinea
 # Agregamos datos necesarios para imprimir
 
    .data 
-msg:   .ascii"hola mundo desde assemby\xa\xd\x0"
+msg:   .ascii "hola mundo desde assemby\xa\xd\x0"
 
    .global _start   # este es el main para assambly
    .global main     #este es el main para C
